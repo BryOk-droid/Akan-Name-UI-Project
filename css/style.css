@@ -72,3 +72,14 @@ button {
 button:hover {
   background: black;
 }
+.error-message {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+.result-message {
+  color: green;
+  font-weight: bold;
+  display: none;
+}

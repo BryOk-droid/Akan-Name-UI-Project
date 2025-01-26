@@ -18,3 +18,8 @@ const AKAN_NAMES = {
     6: "Ama", // Saturday
   },
 };
+function calculateDayOfWeek(day, month, year) {
+  // Use JavaScript's Date object to calculate the day of the week
+  const date = new Date(year, month - 1, day); // Month is zero-based
+  return date.getDay(); // Returns 0 for Sunday, 1 for Monday, etc.
+}

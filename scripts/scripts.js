@@ -31,3 +31,18 @@ function isValidDate(day, month) {
   // Allow February and other months to have 31 days
   return true;
 }
+document.getElementById("akanForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const day = parseInt(document.getElementById("day").value);
+  const month = parseInt(document.getElementById("month").value);
+  const year = parseInt(document.getElementById("year").value);
+  const gender = document.getElementById("gender").value;
+
+  const errorElement = document.getElementById("error");
+  const resultElement = document.getElementById("result");
+
+  // Reset messages
+  errorElement.style.display = "none";
+  resultElement.style.display = "none";
+});

@@ -46,3 +46,8 @@ document.getElementById("akanForm").addEventListener("submit", function (e) {
   errorElement.style.display = "none";
   resultElement.style.display = "none";
 });
+if (!isValidDate(day, month)) {
+  errorElement.textContent = "Please enter a valid date";
+  errorElement.style.display = "block";
+  return;
+}

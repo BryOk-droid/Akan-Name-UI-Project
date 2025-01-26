@@ -83,3 +83,9 @@ button:hover {
   font-weight: bold;
   display: none;
 }
+footer {
+  text-align: center;
+  padding: 1em;
+  background: black;
+  color: whitesmoke;
+}

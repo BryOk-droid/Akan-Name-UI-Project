@@ -51,3 +51,5 @@ if (!isValidDate(day, month)) {
   errorElement.style.display = "block";
   return;
 }
+const dayOfWeek = calculateDayOfWeek(day, month, year);
+const akanName = AKAN_NAMES[gender][dayOfWeek];

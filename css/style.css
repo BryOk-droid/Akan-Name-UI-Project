@@ -61,3 +61,14 @@ button {
   border-radius: 20px;
   font-size: 1rem;
 }
+button {
+  background: black;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: black;
+}

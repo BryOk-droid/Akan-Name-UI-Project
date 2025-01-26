@@ -23,3 +23,11 @@ function calculateDayOfWeek(day, month, year) {
   const date = new Date(year, month - 1, day); // Month is zero-based
   return date.getDay(); // Returns 0 for Sunday, 1 for Monday, etc.
 }
+function isValidDate(day, month) {
+  // Check if the month and day are within valid ranges
+  if (month < 1 || month > 12) return false;
+  if (day < 1 || day > 31) return false;
+
+  // Allow February and other months to have 31 days
+  return true;
+}

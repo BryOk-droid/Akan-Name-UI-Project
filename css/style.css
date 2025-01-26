@@ -89,3 +89,39 @@ footer {
   background: black;
   color: whitesmoke;
 }
+#landing {
+  text-align: center;
+  margin: 2em auto;
+  padding: 2em;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#landing h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+#landing p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5em;
+  color: #555;
+}
+
+.cta-button {
+  display: inline-block;
+  background: black;
+  color: white;
+  padding: 0.8em 1.5em;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: darkgray;
+  color: black;
+}
